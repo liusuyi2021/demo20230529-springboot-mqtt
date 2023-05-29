@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: mainserver
+  mqtt:
+    host: tcp://192.168.1.55:1883
+    clientId: service001
+    username: admin
+    password: xzx12345
+    topic: test,test1
+    timeout: 100
+    keepalive: 60
+    enabled: true
+
